@@ -1,0 +1,29 @@
+# 컴파일된 바이너리 파일
+*.exe
+*.out
+*.dll
+*.gz
+
+# 로그 파일
+*.log
+
+# 환경설정 파일
+.env
+config.json
+OAI_CONFIG_LIST.json
+
+# 특정 폴더 무시
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+.virtual_documents/
+.cache/
+tmp/
+results/
+yi-ko-6b-text2sql/
+data/
+wandb/
+checkpoints/
+klue_mrc_mnr/
+output/
+coding/
